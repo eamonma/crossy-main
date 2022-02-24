@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       screens: {
         hasHover: { raw: "(hover: hover)" },
+        "3xl": { raw: "(min-width: 1700px)" },
       },
     },
     fontFamily: {

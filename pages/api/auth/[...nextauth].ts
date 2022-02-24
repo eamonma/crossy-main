@@ -24,7 +24,7 @@ export default NextAuth({
     },
 
     session: async ({ session, token, user }) => {
-      //   console.log(session, token, user)
+      // console.log(session, token, user)
 
       //   const response = await axios.get(`https://discordapp.com/api/users/@me`, {
       //     headers: { Authorization: `Bearer ${token.accessToken}` },
@@ -34,7 +34,7 @@ export default NextAuth({
 
       // if (user.id) session.id = user.id
 
-      //   session.id = user.id
+      // session.id = user.
       return Promise.resolve(session)
     },
   },
