@@ -33,7 +33,7 @@ const MainContainer = styled.main`
   /* @media () */
 `
 
-const CrosswordGrid = styled.div`
+const CrosswordGrid = styled.div<any>`
   display: grid;
   /* border: 4px solid black; */
   /* background: #000; */
